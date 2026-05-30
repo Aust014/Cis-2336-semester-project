@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f7f7f7;
+    color: #222;
+  }
+  
+  h1 {
+    color: #c8102e;
+  }
+  
+  h2, h3 {
+    color: #444;
+  }
+  
+  button {
+    padding: 8px 14px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  nav {
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #0055aa;
+    font-weight: bold;
+  }
+  
+  form {
+    background: white;
+    padding: 15px;
+    max-width: 500px;
+    border: 1px solid #ccc;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+  }
+  
+  .faq-question {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+    margin-top: 10px;
+    background-color: #c8102e;
+    color: white;
+    border: none;
+  }
+  
+  .faq-answer {
+    max-width: 500px;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #form-message {
+    font-weight: bold;
+    margin-top: 10px;
+  }

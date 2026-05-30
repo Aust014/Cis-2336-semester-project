@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Room Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Room Booking - UH Student Center</h1>
+
+<button id="menu-toggle">Menu</button>
+
+<nav id="nav-menu" style="display:none;">
+  <a href="index.html">Home</a>
+  <a href="faq.html">FAQ</a>
+  <a href="booking.html">Booking</a>
+  <a href="references.html">References</a>
+</nav>
+
+<h2>Book a Room</h2>
+
+<form id="booking-form">
+  <label for="name">Full Name:</label><br>
+  <input type="text" id="name"><br><br>
+
+  <label for="email">UH Email:</label><br>
+  <input type="email" id="email"><br><br>
+
+  <label for="room">Select a Room:</label><br>
+  <select id="room">
+    <option value="">Choose a room</option>
+    <option value="Room 101">Room 101</option>
+    <option value="Room 102">Room 102</option>
+    <option value="Room 201">Room 201</option>
+    <option value="Room 202">Room 202</option>
+    <option value="Conference Room A">Conference Room A</option>
+  </select><br><br>
+
+  <label for="date">Date:</label><br>
+  <input type="date" id="date"><br><br>
+
+  <label for="purpose">Purpose:</label><br>
+  <textarea id="purpose"></textarea><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+
+<p id="form-message"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
